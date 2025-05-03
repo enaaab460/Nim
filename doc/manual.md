@@ -2524,7 +2524,7 @@ a subtype to its parent type to prevent "object slicing".
 Convertible relation
 --------------------
 
-A type `a` is **implicitly** convertible to type `b` iff the following
+A type `a` is **implicitly** convertible to type `b` if the following
 algorithm returns true:
 
   ```nim
